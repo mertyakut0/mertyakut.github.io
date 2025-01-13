@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <title>Mert YAKUT - Kişisel Web Sitesi</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Mert YAKUT - Kişisel Web Sitesi">
+    <meta name="keywords" content="mertyakut, Mert Yakut, MERT, YAKUT, mertyakut.com">
+    <meta name="author" content="Mert Yakut">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #333333;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+
+        .bg-1 {
+            background-color: #A32638;
+            color: #F7D100;
+        }
+
+        .bg-2 {
+            background-color: #F7D100;
+            color: #A32638;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: #A32638;
+            color: #F7D100;
+        }
+
+        .bg-5 {
+            background-color: #F7D100;
+            color: #333333;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .navbar {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            border: 0;
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 12px;
+            letter-spacing: 5px;
+        }
+
+        .navbar-nav li a:hover {
+            color: #A32638 !important;
+        }
+    </style>
+    <script>
+        function showConfirmation(event) {
+            event.preventDefault(); // Formun varsayılan gönderimini engelle
+            alert("Mesajınız alınmıştır. Teşekkür ederiz!"); // Mesajı göster
+            document.getElementById("contactForm").reset(); // Formu sıfırla
+        }
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Mert YAKUT</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#kimdir">Kimdir?</a></li>
+                    <li><a href="#neyapar">Ne yapar?</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="kimdir" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Merhaba, Ben Mert!</h3>
+        <img src="c:\Users\salak\Downloads\1601020_bff9_4.webp" class="img-responsive img-circle margin" style="display:inline" alt="mertyakut" width="350" height="350">
+        <h3>bilgisayar mühendisi veri analisti </h3>
+    </div>
+
+    <div id="neyapar" class="container-fluid bg-2 text-center">
+        <h3 class="margin">Neler Yaparım?</h3>
+        <p>yazılım alanlarında belli başlı çalışmalara sahibim aynı zamanda sporcuyum uzun süredir powerlifting spor ile ilgileniyorum ... </p>
+        <a href="https://iftm.tmgrup.com.tr/album/2023/04/26/galatasaraya-icardi-transferinde-surpriz-destek-1682536780652.jpg" class="btn btn-default btn-lg" target="_blank">
+            <span class="glyphicon glyphicon-link"></span> Siteye Git
+        </a>
+    </div>
+
+    <div id="blog" class="container-fluid bg-3 text-center">
+        <h3 class="margin">Blog</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>ben mert yakut ve hiçbir anormal veya normal bir özelliğe sahip olmayan bir bireyim.</p>
+                <img src="c:\Users\salak\Downloads\Bilgisayar-Muhendisligi-Nedir-Bilgisayar-Muhendisleri-Ne-Is-Yapar.webp" class="img-responsive margin" style="width:100%" alt="Mert Yakut">
+            </div>
+            <div class="col-sm-4">
+                <p>Gönlü zengin memleketin evsiz evlatları
+                    Küsmüş mahallelerine, sevmiş ekranları
+                    Tabii, gerçek hep karanlık olduğundan
+                    Tatlı gelmiş sanal dünyanın ışıklı, renkli ekranları</p>
+                <img src="c:\Users\salak\Downloads\dunya-adi-nereden-geliyor.jpg" class="img-responsive margin" style="width:100%" alt="Blog">
+            </div>
+            <div class="col-sm-4">
+                <p>veri bilimi ve makine öğrenimi üzerinde çalışıyorum.</p>
+                <img src="c:\Users\salak\Downloads\images (2).jpeg" class="img-responsive margin" style="width:100%" alt="Teknoloji">
+            </div>
+        </div>
+    </div>
+
+    <div id="iletisim" class="container-fluid bg-5 text-center">
+        <h3 class="margin">İletişim</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-5 text-left">
+                <p>Merhaba demek ister misin?</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Batman, TR</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +90 5424905338</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> mertyakut@642gmail.com</p>
+            </div>
+            <div class="col-sm-7">
+                <form id="contactForm" onsubmit="showConfirmation(event)">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="İsim" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Mail" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Mesaj" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Gönder</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid bg-4 text-center">
+        <p>Tüm Hakları Ortadadır. 2003 - 2025 </br><a href="https://music.youtube.com/">www.mertyakut.com</a></p>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <i class="fa fa-skype" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </footer>
+
+</body>
+
+</html>
